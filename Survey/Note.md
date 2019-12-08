@@ -9,16 +9,12 @@ https://github.com/peterhaneve/ONIMods
 PLibのReadMeに最初に読み込まれそうな関数発見
 
 ***
-
-`
-public static class Mod_OnLoad
-{
-    public static void OnLoad()
+    public static class Mod_OnLoad
     {
-        PLib.PUtil.LogModInit();
-        PLib.POptions.RegisterOptions(typeof(TestModSetting));
+        public static void OnLoad()
+        {
+            PLib.PUtil.LogModInit();
+            PLib.POptions.RegisterOptions(typeof(TestModSetting));
+        }
     }
-}
-`
-
 ***
