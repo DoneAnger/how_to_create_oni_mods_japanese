@@ -2,7 +2,7 @@
 
 ぱさらんドキュメントに書いてない部分の調査を超メモ的にまとめる
 
-ワークっショップのModsからいろいろ読み取る
+ワークショップのModsからいろいろ読み取る
 サンプルとしていろいろ作ってる方のgithub
 https://github.com/peterhaneve/ONIMods
 
